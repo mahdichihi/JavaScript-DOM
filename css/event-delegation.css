@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(187deg, rgba(8, 54, 74, 0.8705882353), rgba(4, 20, 28, 0.5019607843));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 10px solid white;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  border: 6px solid white;
+  border-radius: 0.5em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.8em;
+  list-style-type: none;
+}
+
+li {
+  box-sizing: border-box;
+  border: 2px solid white;
+  margin: auto;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.3em 1em;
+  text-align: center;
+  margin: 0.2em 0;
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  border: 2px solid white;
+  border-radius: 0.2em;
+  margin: auto;
+  background: none;
+  cursor: pointer;
+  color: white;
+  padding: 0.5em;
+  font-size: 0.5em;
+}/*# sourceMappingURL=event-delegation.css.map */
